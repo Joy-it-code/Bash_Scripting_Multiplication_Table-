@@ -208,7 +208,7 @@ git branch -M main
 git push -u origin main
 ```
 
-
+![](img/4c.git_remote_add.png)
 
 
 
