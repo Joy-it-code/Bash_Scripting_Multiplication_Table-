@@ -185,6 +185,29 @@ git config --global user.email "YourEmail"
 git commit -m "Initial commit for Bash Scripting Multiplication Table project"
 ```
 
+![](img/3d.git.png)
+
+### Task 4: Push the code to your Github repository
+
+After initializing your Git repository and adding your Bash scripting multiplication table, the next step is to push your code to a remote repository on GitHub. This step is crucial for version control and collaboration.
+
+  **.** Create a Remote Repository on GitHub: Log into your GitHub account and create a new repository named Bash_Scripting_Multiplication_Table. Leave the repository empty without initializing it with a README, .gitignore, or license.
+
+![](img/4acreate_repository.png)
+![](img/4b.create_repocontd.png)
+
+**.** Link Your Local Repository to GitHub: In your terminal within your project directory, add the remote repository URL to your local repository configuration.
+
+**.** Push Your Code: Upload your repository content to GitHub, use the following command to push your commits from your local main branch to the remote repository. this enables you to store your project in the cloud and share it with others.
+
+**Commands:**
+
+```
+git remote add origin https://github.com/Joy-it-code/Bash_Scripting_Multiplication_Table-.git
+git branch -M main
+git push -u origin main
+```
+
 
 
 
